@@ -24,5 +24,11 @@ touch .env | echo 'apikey="YOURAPIKEY"'>.env
 4. Uruchom aplikację
 
 ```
-npm run
+npm start
+```
+
+5. Zadanie dodatkowe
+
+```
+npm run extra
 ```
