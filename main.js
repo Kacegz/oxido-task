@@ -10,8 +10,8 @@ async function main() {
       encoding: "utf8",
     });
     console.log("Waiting for API response...");
-    const prompt = `Przerób poniższą treść artykułu na HTML, używając odpowiednich tagów HTML.
-    Wskaż miejsca, gdzie warto dodać grafikę, dodając tag <img src="image_placeholder.jpg" alt="opis grafiki"> z dokładnym opisem grafiki jako promptem.
+    const prompt = `Przerób poniższą treść artykułu na HTML, używając odpowiednich tagów.
+    Wskaż miejsca na grafikę, dodając tag <img src="image_placeholder.jpg" alt="opis grafiki"> z dokładnym opisem grafiki jako promptem.
     Umieść podpisy pod grafikami w odpowiednim tagu HTML.
     Zwrócony kod ma zawierać tylko zawartość pomiędzy tagami body, nie formatuj odpowiedzi jako html
     Treść:
