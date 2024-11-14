@@ -1,26 +1,28 @@
 # App setup
 
-1. Clone repo and navigate to it
+Aplikacja ma za zadanie wczytać plik `text.txt`, następnie wykonać zapytanie do API o utworzenie treści na stronie zgodnie z pobranym tekstem oraz zapisanie go w pliku `artykul.html`
+
+1. Sklonuj repozytorium oraz przejdź do niego
 
 ```
 git clone https://github.com/Kacegz/oxido-task
 cd oxido-task
 ```
 
-2. Install dependencies
+2. Zainstaluj biblioteki
 
 ```
 npm install
 ```
 
-3. Add environmental variables and add an API key to it
+3. Dodaj plik ze zmiennymi środowiskowymi oraz zapisz je do pliku
 
 ```
 touch .env | echo 'apikey="YOURAPIKEY"'>.env
 ```
 
-4. Run the application
+4. Uruchom aplikację
 
 ```
-npm start
+npm run
 ```
